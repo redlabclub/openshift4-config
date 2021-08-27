@@ -5,10 +5,9 @@ metadata:
   name: banner
   namespace: openshift-gitops
 spec:
-  project: banner
+  project: default
   source:
-    repoURL: git@github.com:redlabclub/openshift4-config.git
-    targetRevision: HEAD
+    repoURL: https://github.com/redlabclub/openshift4-config
     path: conf-banner 
   destination:
     server: https://kubernetes.default.svc

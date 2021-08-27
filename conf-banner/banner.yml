@@ -1,7 +1,6 @@
 apiVersion: console.openshift.io/v1
 kind: ConsoleNotification
 metadata:
-  generation: 6
   name: banner
 spec:
   backgroundColor: '#EE0000'
