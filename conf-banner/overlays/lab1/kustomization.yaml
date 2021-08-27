@@ -6,7 +6,8 @@ bases:
 
 patchesJson6902:
 - target:
-    apiVersion: console.openshift.io/v1
+    group: console.openshift.io
+    version: v1
     kind: ConsoleNotification
     name: banner
   path: color.yml
