@@ -11,7 +11,3 @@ spec:
     path: conf-oauth/overlays/htpass
   destination:
     name: lab1
-  syncPolicy:
-    automated:
-      prune: false
-      selfHeal: true
