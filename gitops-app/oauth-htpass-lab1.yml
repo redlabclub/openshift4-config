@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: banner-lab1
+  name: oauth-htpass-lab1
   namespace: openshift-gitops
 spec:
   project: default
